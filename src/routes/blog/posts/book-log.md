@@ -1,8 +1,8 @@
 ---
 title: Book Log
 date: 2023-01-02
-summary: "In which I talk about books"
-tags: ["books", "reading"]
+summary: 'In which I talk about books'
+tags: ['books', 'reading']
 ---
 
 Hey everyone and happy New Year 🎉!

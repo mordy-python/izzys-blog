@@ -1,15 +1,14 @@
-import adapter from '@sveltejs/adapter-netlify'
+import adapter from '@sveltejs/adapter-netlify';
 import autoprefixer from 'autoprefixer';
-import sveltePreprocess from 'svelte-preprocess'
-import { mdsvex } from 'mdsvex'
-
+import sveltePreprocess from 'svelte-preprocess';
+import { mdsvex } from 'mdsvex';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
 		adapter: adapter()
 	},
-	extensions: [".svelte", ".md"],
+	extensions: ['.svelte', '.md'],
 
 	preprocess: [
 		sveltePreprocess({
@@ -17,7 +16,7 @@ const config = {
 				plugins: [autoprefixer]
 			}
 		}),
-		mdsvex({ extensions: [".md"] }),
+		mdsvex({ extensions: ['.md'] })
 	]
 };
 

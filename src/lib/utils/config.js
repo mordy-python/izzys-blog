@@ -1,3 +1,3 @@
 export const config = {
-    title: "Izzy's Blog",
-}
+	title: "Izzy's Blog"
+};
